@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Join Draksha on her development journey. See her projects and get ideas for your project">
+  <meta name="keywords" content="Draksha, UEM, Hill Top School, Jamshedpur, Portfolio">
+  <meta name="author" content="Draksha">
+  <title>Draksha Portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Its DRAKSHA</h1><br>
+    <nav>
+      <button id="navicon" style="font-size:30px">&#9776;</button>
+      <a class="nav_items" onclick="close_fullscreendropdown(this)">About</a>
+      <a class="nav_items" onclick="open_fullscreendropdown(qualifications,this)">Qualifications</a>
+      <a class="nav_items" onclick="open_fullscreendropdown(achievements,this)">Achievements</button>
+        <a class="nav_items" onclick="open_fullscreendropdown(internships,this)">Internships</a>
+        <a class="nav_items" href="www.linkedin.com/in/draksha-aa3164227" target="main">Linkedin</a>
+        <a class="nav_items" href="https://github.com/Draksha-the-decoder" target="main">Github</a>
+    </nav>
+  </header>
+  <main>
+    <section id="qualifications" class="content dropdown" onclick="close_fullscreendropdown(nav_items[1])">
+      <table>
+        <thead>
+          <caption>Educational Qualifications</caption>
+          <tr>
+            <th> degree </th>
+            <th> Score </th>
+            <th> Institution </th>
+            <th> Year </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> B.Tech CSE </td>
+            <td> ongoing </td>
+            <td> UEM Kolkata </td>
+            <td> 2025 </td>
+          </tr>
+          <tr>
+            <td> 12th </td>
+            <td> 91.1% </td>
+            <td> Hill Top School </td>
+            <td> 2021 </td>
+          </tr>
+          <tr>
+            <td> 10th </td>
+            <td> 96.2% </td>
+            <td> Hill Top School </td>
+            <td> 2019 </td>
+          </tr>
+        </tbody>
+      </table><br>
+      <table>
+        <thead>
+          <caption>Certified Courses</caption>
+          <tr>
+            <th> Course </th>
+            <th> Score </th>
+            <th> Institution </th>
+            <th> Year </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Developing soft skills and personality</td>
+            <td> 77%</td>
+            <td> NPTEL </td>
+            <td> 2022</td>
+          </tr>
+          <tr>
+            <td> Entrepreneurship </td>
+            <td> venture passed</td>
+            <td> Wadhwani Foundation</td>
+            <td> 2022 </td>
+          </tr>
+          <tr>
+            <td> Enhancing soft skills and personality </td>
+            <td> 80 % </td>
+            <td> NPTEL </td>
+            <td> 2022 </td>
+          </tr>
+          <tr>
+            <td> Bot Making Workshop </td>
+            <td> - </td>
+            <td> UEMK - Ureckon </td>
+            <td> 2022 </td>
+          </tr>
+          <tr>
+            <td> JAM Event (HTML)</td>
+            <td> - </td>
+            <td> UEMK - Ureckon </td>
+            <td> 2022 </td>
+          </tr>
+          <tr>
+            <td> Arduino - UNO </td>
+            <td> - </td>
+            <td> UEMK - Ureckon </td>
+            <td> 2021 </td>
+          </tr>
+        </tbody>
+      </table><br>
+      <table>
+        <thead>
+          <caption>Self learnt skills</caption>
+          <tr>
+            <th> Skill </th>
+            <th> Source </th>
+            <th> Application </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> HTML </td>
+            <td> You Tube </td>
+            <td> My portfolio </td>
+          </tr>
+          <tr>
+            <td> CSS </td>
+            <td> You Tube </td>
+            <td> My projects </td>
+          </tr>
+          <tr>
+            <td> JS </td>
+            <td> You Tube </td>
+            <td> My projects </td>
+          </tr>
+        </tbody>
+      </table><br>
+    </section>
+    <section id="achievements" class="content dropdown" onclick="close_fullscreendropdown(nav_items[2])">
+      <p>soon to come..... &#128517;</p>
+    </section>
+    <section id="internships" class="content dropdown" onclick="close_fullscreendropdown(nav_items[3])">
+      <p>Fresher &#128513;</p>
+    </section>
+    <section id="myself" class="content">
+      <div class="my_pic">
+        <img src="Draksha.jpg" alt="My Photo">
+      </div>
+      <div>
+        <article>
+          Hello! This is Draksha <br>
+          A student persuing my BTech degree in CSE from UEM<br>
+          I am a tech enthusiast , currentely developing my web development skills<br>
+          Optimist , Careful , always ready for challenges<br>
+          Funlover and enthusiastic....that's me<br>
+        </article>
+      </div>
+    </section>
+    <h3>My projects</h3>
+    <section id="projects" class="content">
+      <div class="project_list">
+        <dl>
+          <dt><a href="#">My Portfolio</a></dt>
+          <dd>This is my first full fleged website made using HTML CSS and JS. This is a responsive website consisting
+            of my portfolio which can be accessed through the navigation bar.</dd><br>
+          <dt><a href="https://draksha-the-decoder.github.io/Digital_Clock/">Digital Clock</a></dt>
+          <dd>The main focus of this project was to get hands-on-experience with inbuilt functions of javascript like
+            date ,time, setinterval, etc and accessing and adding properties to DOM</dd><br>
+          <dt><a href="https://draksha-the-decoder.github.io/Digital_Timer/">Digital Timer</a></dt>
+          <dd>This helped me in applying my learning on events , addeventlistener ,ifelse logic and functions in
+            javascript. The timer works according to the instruction of user. Js is executed according to the input user
+            gives through buttons to the timer</dd><br>
+          <dt><a href="https://draksha-the-decoder.github.io/Stone-Paper-Scissor/">Stone Paper Scissor</a></dt>
+          <dd>This project is an application of BOM learning... alert, prompt, confirm and HTML manipulation using JS
+          </dd><br>
+        </dl>
+      </div>
+      <div class="project_pics">
+        <div class="mySlides">
+          <img src="clock.jpg">
+          <p class="label-img">Digital Clock</p>
+        </div>
+        <div class="mySlides">
+          <img src="timer.jpg">
+          <p class="label-img">My pic</p>
+        </div>
+        <div class="mySlides">
+          <img src="Stone_paper_scissor.jpg">
+          <p class="label-img">Digital Timer</p>
+        </div>
+        <div class="mySlides">
+          <img src="myportfolio.png">
+          <p class="label-img">My Portfolio</p>
+        </div>
+
+        <button class="prev" onclick="plusSlide(-1)">❮</button>
+        <button class="next" onclick="plusSlide(1)">❯</button>
+
+        <p>
+          <button class="dot" onclick="currentSlide(0)"></button>
+          <button class="dot" onclick="currentSlide(1)"></button>
+          <button class="dot" onclick="currentSlide(2)"></button>
+          <button class="dot" onclick="currentSlide(3)"></button>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span>Your feedback is very precious. You may leave your query or suggestions regarding my new project below :</span>
+    <form onsubmit="sendEmail(); reset(); return false" method="post">
+      <span>Name : <input type="text" id="name" placeholder=" Enter Name" required></span><br>
+      <span>Email : <input type="email" id="email" placeholder="abc@gmail.com"></span><br>
+      <span><textarea id="feedback" placeholder="Your Feedback" rows="1" required></textarea></span><br>
+      <button id="submit" type="submit">Send</button>
+    </form>
+  </footer>
+</body>
+
+<script src="portfolio.js"></script>
+</html>
